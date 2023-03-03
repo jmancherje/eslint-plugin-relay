@@ -19,6 +19,7 @@ const CREATE_CONTAINER_FUNCTIONS = new Set([
   'createFragmentContainer',
   'createPaginationContainer',
   'createRefetchContainer'
+  'useFragment',
 ]);
 
 function isCreateContainerCall(node) {
